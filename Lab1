@@ -1,0 +1,49 @@
+Switch>en
+Switch#>conf  t
+Switch (config)> no ip domain-lookup
+Switch (config)> hostname S1
+S1 (config)> service password-encryption
+S1 (config)> enable secret class
+S1 (config)> banner motd #
+Unauthorized access is strictly prohibited. #
+S1(config)#interface vlan 1
+S1(config-if)#ip address 192.168.1.2 255.255.255.0
+
+S1(config-if)#no sh
+
+S1(config-if)#
+
+%LINK-5-CHANGED: Interface Vlan1, changed state to up
+
+S1(config-if)#ex
+S1(config)#interface fastEthernet 0/24
+S1(config-if)#S1port access vlan 99
+
+% Access VLAN does not exist. Creating vlan 99
+
+S1(config-if)#ex
+
+S1(config)#interface gigabitEthernet 0/1
+
+S1(config-if)#S1port access vlan 99
+
+S1(config-if)#ex
+
+S1(config)#interface gigabitEthernet 0/2
+
+S1(config-if)#S1port access vlan 99
+S1(config)#line con 0
+S1(config-line)#password cisco
+S1(config-line)#login synchronous
+S1(config-line)#login
+
+S1(config-line)#ex
+S1(config)#line vty 0 4
+S1(config-line)#password cisco
+S1(config-line)#login
+S1(config-line)#ex
+S1(config)#enable secret cisco
+
+S1(config)#service password-encryption
+
+S1(config)#banner motd ^C Unauthorized access is strictly prohibited. ^C
