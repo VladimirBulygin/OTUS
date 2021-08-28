@@ -1,49 +1,24 @@
-Switch>en
-Switch#>conf  t
-Switch (config)> no ip domain-lookup
-Switch (config)> hostname S1
-S1 (config)> service password-encryption
-S1 (config)> enable secret class
-S1 (config)> banner motd #
-Unauthorized access is strictly prohibited. #
-S1(config)#interface vlan 1
-S1(config-if)#ip address 192.168.1.2 255.255.255.0
+Лабораторная работа. Базовая настройка коммутатора
+--------------------------------------------------
 
-S1(config-if)#no sh
+![Топология](https://wampi.ru/image/Rsk0ue7.jpeg)
 
-S1(config-if)#
+Для выполнения лабораторной работы был выбран свитч Cisco 2960 cо следующей конфигурацией:
 
-%LINK-5-CHANGED: Interface Vlan1, changed state to up
+![Рис.1](https://wampi.ru/image/RsCcuKO.jpeg)
 
-S1(config-if)#ex
-S1(config)#interface fastEthernet 0/24
-S1(config-if)#S1port access vlan 99
+При анализе конфигурации свитча созданных сетей VLAN обнаружено не было:
 
-% Access VLAN does not exist. Creating vlan 99
+![Рис.2](https://wampi.ru/image/RsCxiG7.jpeg)
 
-S1(config-if)#ex
+Также было выполнено удаление загрузочной информации из NVRAM с последующей перезагрузкой устройства:
 
-S1(config)#interface gigabitEthernet 0/1
+![Рис.3](https://wampi.ru/image/RsCblxQ.jpeg)
 
-S1(config-if)#S1port access vlan 99
+![Рис.4](https://wampi.ru/image/RsCzWIs,jpeg)
 
-S1(config-if)#ex
+![Рис.5](https://wampi.ru/image/RsCGxMq/jpeg)
 
-S1(config)#interface gigabitEthernet 0/2
+Для эмуляции соединения ПК и свитча использовался Cisco Packet Tracer 6.2. ПК был подключён к устройству через консольный порт, затем был использован стандартный эмулятор терминального подключения Cisco Packet Tracer.
 
-S1(config-if)#S1port access vlan 99
-S1(config)#line con 0
-S1(config-line)#password cisco
-S1(config-line)#login synchronous
-S1(config-line)#login
-
-S1(config-line)#ex
-S1(config)#line vty 0 4
-S1(config-line)#password cisco
-S1(config-line)#login
-S1(config-line)#ex
-S1(config)#enable secret cisco
-
-S1(config)#service password-encryption
-
-S1(config)#banner motd ^C Unauthorized access is strictly prohibited. ^C
+![Рис.6](https://wampi.ru/image/RsC7BgZ.jpeg)
