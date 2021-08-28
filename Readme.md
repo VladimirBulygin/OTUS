@@ -31,7 +31,7 @@
 
 <a href="https://ibb.co/yNw0ZyX"><img src="https://i.ibb.co/Rgx2s09/Lab1-81.jpg" alt="Lab1-81" border="0"></a>
 
-<a href="https://ibb.co/TH2dkMG"><img src="https://i.ibb.co/19QjLGN/Lab1-82.jpg" alt="Lab1-82" border="0"></a>
+<a href="https://ibb.co/wRPJpS8"><img src="https://i.ibb.co/mG2vh9d/Lab1-82.jpg" alt="Lab1-82" border="0"></a>
 
 На свитче Cisco 2960 имеется 24 порта FastEthernet и 2 порта GigabitEthernet Также имеются два диапазона линий vty: c 0 по 4 и с 5 по 15.
 
@@ -40,4 +40,12 @@
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/n01bJf1/Lab1-9.jpg" alt="Lab1-9" border="0"></a>
 
 Причина появления данного сообщения состоит в том, что не была создана запись загрузочной конфигурации путём выполнения команды: copy running config startup config.
+
+Также в конфигурации видно, что на свитче отсутствует ip-адресс SVI. VLAN 1 находится в состоянии "shutown".
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/d6m8gmh/Lab1-10.jpg" alt="Lab1-10" border="0"></a>
+
+После выполнения команды Show interfaces vlan 1, видно, что интерфейс отключён, как и IP-протокол, получена информация об MAC-адресе интерфейса, размере MTU, пропускной способности сети (BW), статистике полученных и отправленных пакетов (по нулям, т.к. интерфейс выключен).
+
+<a href="https://ibb.co/9VzyXXN"><img src="https://i.ibb.co/ZYtcssV/Lab1-11.jpg" alt="Lab1-11" border="0"></a>
 
