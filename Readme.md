@@ -20,5 +20,4 @@
 <a href="https://ibb.co/ZK7TnQv"><img src="https://i.ibb.co/MpQNYzK/Lab1-5.jpg" alt="Lab1-5" border="0"></a>
 
 Для эмуляции соединения ПК и свитча использовался Cisco Packet Tracer 6.2. ПК был подключён к устройству через консольный порт, затем был использован стандартный эмулятор терминального подключения Cisco Packet Tracer.
-
-![Рис.6](https://wampi.ru/image/RsC7BgZ.jpeg)
+<a href="https://ibb.co/Cb6Qkvc"><img src="https://i.ibb.co/sKCq0Qf/Lab1-7.jpg" alt="Lab1-7" border="0"></a>
