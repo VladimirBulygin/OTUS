@@ -49,3 +49,11 @@
 
 <a href="https://ibb.co/9VzyXXN"><img src="https://i.ibb.co/ZYtcssV/Lab1-11.jpg" alt="Lab1-11" border="0"></a>
 
+После того как были соединены кабелем Ehernet компьютер и свитч, сразу же появилось сообщение о поднятом интерфейсе VLAN1, также после просмотра информации об VLAN1 было видно как поменялся MAC.
+
+<a href="https://ibb.co/M2tgmSB"><img src="https://i.ibb.co/5MS1P4K/Lab1-13.jpg" alt="Lab1-13" border="0"></a>
+
+После выполнения команды Show Version выяснено что свитч работает под управлением Cisco Ios 12.2, файл образа системы носит название: C2960-LANBASE-M, а базовый MAC-адрес имеет следующий вид: 0001.4203.0D12.
+
+<a href="https://ibb.co/nBYDJ99"><img src="https://i.ibb.co/hc4Kzbb/Lab1-14.jpg" alt="Lab1-14" border="0"></a>
+
