@@ -115,3 +115,5 @@
 <a href="https://ibb.co/WtKGG7m"><img src="https://i.ibb.co/RyHYYtR/Lab1-25.jpg" alt="Lab1-25" border="0"></a>
 
 В заключение выполняется пинг утройства. Пинг был выполнен как в адрес компьютера, так и в адрес свитча.
+
+<a href="https://ibb.co/bFgzJyd"><img src="https://i.ibb.co/QkFrdqm/Lab1-26.jpg" alt="Lab1-26" border="0"></a>
