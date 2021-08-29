@@ -89,4 +89,127 @@
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/44kNQdH/Lab1-20.jpg" alt="Lab1-20" border="0"></a>
 
-И далее ограничение паролем доступа к виртуальным линиям (telnet, shh)
+Команда Login ипользуется для активации пароля.
+
+И далее ограничение паролем доступа к виртуальным линиям (telnet, shh).
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/2vFJdhV/Lab1-22.jpg" alt="Lab1-22" border="0"></a> 
+
+Для удаленного подключения к устройству был назначен IP-адрес на PC.
+
+<a href="https://ibb.co/8gCQGkW"><img src="https://i.ibb.co/zVMtCdy/Lab1-23.jpg" alt="Lab1-23" border="0"></a>
+
+И произведен успешный тест удаленного подключения по телнет: 
+
+<a href="https://ibb.co/xG8XqYy"><img src="https://i.ibb.co/nf86MBT/Lab1-24.jpg" alt="Lab1-24" border="0"></a>
+
+Общая конфигурация свитча после лабораторной работы выглядит так: 
+
+S1#show run
+Building configuration...
+
+Current configuration : 1419 bytes
+!
+version 12.2
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+service password-encryption
+!
+hostname S1
+!
+enable secret 5 $1$mERr$9cTjUIEqNGurQiFU.ZeCi1
+!
+!
+!
+no ip domain-lookup
+!
+!
+spanning-tree mode pvst
+!
+interface FastEthernet0/1
+!
+interface FastEthernet0/2
+!
+interface FastEthernet0/3
+!
+interface FastEthernet0/4
+!
+interface FastEthernet0/5
+!
+interface FastEthernet0/6
+!
+interface FastEthernet0/7
+!
+interface FastEthernet0/8
+!
+interface FastEthernet0/9
+!
+interface FastEthernet0/10
+!
+interface FastEthernet0/11
+!
+interface FastEthernet0/12
+!
+interface FastEthernet0/13
+!
+interface FastEthernet0/14
+!
+interface FastEthernet0/15
+!
+interface FastEthernet0/16
+!
+interface FastEthernet0/17
+!
+interface FastEthernet0/18
+!
+interface FastEthernet0/19
+!
+interface FastEthernet0/20
+!
+interface FastEthernet0/21
+!
+interface FastEthernet0/22
+!
+interface FastEthernet0/23
+!
+interface FastEthernet0/24
+ switchport access vlan 99
+!
+interface GigabitEthernet0/1
+ switchport access vlan 99
+!
+interface GigabitEthernet0/2
+ switchport access vlan 99
+!
+interface Vlan1
+ ip address 192.168.1.2 255.255.255.0
+!
+ip default-gateway 192.168.1.1
+!
+banner motd ^C
+Unauthorized access is strictly prohibited. ^C
+!
+!
+!
+line con 0
+ password 7 0822455D0A16
+ logging synchronous
+ login
+!
+line vty 0 4
+ password 7 0822455D0A16
+ login
+ transport input telnet
+line vty 5 15
+ password 7 0822455D0A16
+ login
+!
+!
+end
+
+
+Были проверены настройки VLAN1. Полоса пропускания - 10.000 Kbit, интерфейс поднят, протокол работает.
+
+<a href="https://ibb.co/WtKGG7m"><img src="https://i.ibb.co/RyHYYtR/Lab1-25.jpg" alt="Lab1-25" border="0"></a>
+
+В заключение выполняется пинг утройства. Пинг был выполнен как в адрес компьютера, так и в адрес свитча.
