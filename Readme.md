@@ -1,4 +1,4 @@
-Лабораторная работа. Базовая настройка коммутатора
+Лабораторная работа. Базовая настройка коммутатора. Часть 1.
 --------------------------------------------------
 
 Топология.
@@ -61,5 +61,32 @@
 
 <a href="https://ibb.co/DrFycRP"><img src="https://i.ibb.co/3Rbq6C5/Lab1-15.jpg" alt="Lab1-15" border="0"></a>
 
+Для анализа сетей VLAN на свитче была выполнена команда "Show VLAN", по умолчанию имя сети VLAN - VLAN 1, в него входят все интерфейсы устройства, как FastEthernet так и GigabitEthernet. Сеть VLAN 1 принадлежит к сети  типа "ethernet".
 
+<a href="https://ibb.co/YZ1t8dR"><img src="https://i.ibb.co/JQGz2pB/Lab1-16.jpg" alt="Lab1-16" border="0"></a>
 
+В соответствии со следующим заданием была изучена флэш - память. После выполнения команды "Show flash" был получен следующий результат: 
+
+<a href="https://ibb.co/R0KKPCq"><img src="https://i.ibb.co/r6hhMZV/Lab1-17.jpg" alt="Lab1-17" border="0"></a>
+
+Имя образа устройства: c2960-lanbase-mz.122-25.FX.bin.
+
+## Часть 2.
+
+Во второй части приступаю к настройке коммутатора.
+
+В соответствии с текстом лаборатороной работы копирую команды в свитч..
+
+<a href="https://ibb.co/Kzb8JvW"><img src="https://i.ibb.co/R4YJqwc/Lab1-18.jpg" alt="Lab1-18" border="0"></a>
+
+Команда no ip domain-lookup отключает поиск по DNS при ошибочном вводе команды, hostname - изменение имени свитча, service password-encryption - шифрование паролей в текущей конфигурации, enable secret class - включение защиты паролем привилегированного режима, banner motd # - создание баннера, информационного сообщения.
+
+Далее произвожу назначение Ip адреса VLAN1 для удаленного управления коммутатором.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/HGZ1T3B/Lab1-19.jpg" alt="Lab1-19" border="0"></a>
+
+В следующем задании ограничиваю доступ к консоли свитча: 
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/44kNQdH/Lab1-20.jpg" alt="Lab1-20" border="0"></a>
+
+И далее ограничение паролем доступа к виртуальным линиям (telnet, shh)
