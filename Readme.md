@@ -57,3 +57,9 @@
 
 <a href="https://ibb.co/nBYDJ99"><img src="https://i.ibb.co/hc4Kzbb/Lab1-14.jpg" alt="Lab1-14" border="0"></a>
 
+Далее, при исследовании свойств интерфейса Fastehernet0/6 было выяснено, что данный интерфейс включён, протокол работает. Режим дуплекса установлен в Full-duplex, скорость: 100МБит/с, MAC - 000b.beed.7506. Для включения интерфейса на свитче используется команда "no shutdown".
+
+<a href="https://ibb.co/DrFycRP"><img src="https://i.ibb.co/3Rbq6C5/Lab1-15.jpg" alt="Lab1-15" border="0"></a>
+
+
+
