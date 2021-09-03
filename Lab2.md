@@ -21,3 +21,14 @@
 Для удаленного управления свитчами были установелны пароли на консоль, vty и привилигированный режим: 
 <a href="https://ibb.co/YfwBg0z"><img src="https://i.ibb.co/0Yvy5sg/Lab2-6.jpg" alt="Lab2-6" border="0"></a>
 <a href="https://ibb.co/QbhYcBp"><img src="https://i.ibb.co/yfKgRTd/Lab2-7.jpg" alt="Lab2-7" border="0"></a>
+
+После анализа МАС адресов на компьютерах PC A и PC B было установлено:
+
+1) МАС адресс PC A -0004.9A39.248B
+2) МАС адресс PC B - 0004.9A39.248B
+
+<a href="https://ibb.co/6nDgBzc"><img src="https://i.ibb.co/1vR861Y/Lab2-8.jpg" alt="Lab2-8" border="0"></a>
+
+Далее были проанализированы МАС адреса свитчей командой Show interface FastEthernet 0/1 
+<a href="https://ibb.co/PhdhJW9"><img src="https://i.ibb.co/hWSWrdZ/Lab2-9.jpg" alt="Lab2-9" border="0"></a>
+
