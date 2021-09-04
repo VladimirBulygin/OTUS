@@ -45,3 +45,15 @@
 
 <a href="https://ibb.co/Phk0YNc"><img src="https://i.ibb.co/MVdQhsc/Lab2-11.jpg" alt="Lab2-11" border="0"></a>
 
+На PC А была выполнена команда arp -a, результат - отсутствие каких-либо mac-адресов.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/HHT7Pq5/Lab2-12.jpg" alt="Lab2-12" border="0"></a>
+
+Далее с PC B был выполнен ping на все устройства сети. Во всех случаях он был положительным.
+
+<a href="https://ibb.co/2N65c8s"><img src="https://i.ibb.co/ZmJNcHY/Lab2-14.jpg" alt="Lab2-14" border="0"></a>
+
+Также результатом выполнения пинга было отображение mac-адресов в таблице свитча S2 и на машине PC B.
+
+<a href="https://ibb.co/Bywqv1H"><img src="https://i.ibb.co/v3DZftC/Lab2-16.jpg" alt="Lab2-16" border="0"></a>
+
