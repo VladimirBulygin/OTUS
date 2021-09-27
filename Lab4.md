@@ -6,3 +6,9 @@
 
 ### Далее для включения IPV6 на коммутаторе была выполнена команда: sdm prefer dual-ipv4-and-ipv6 default, после чего было получено сообщение о необходимости перезагрузки. Следующим действием была выполнена перезагрузка командой Reload.
 <a href="https://ibb.co/zWgtsGR"><img src="https://i.ibb.co/1YN4Z8q/1.jpg" alt="1" border="0"></a>
+
+### В соответствии с частью второй лабораторной работы, были назначены IPV6 адреса на интерфейсах роутера.
+<a href="https://ibb.co/HGtKJPT"><img src="https://i.ibb.co/RQ3g56T/2.jpg" alt="2" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/r4VdDzF/3.jpg" alt="3" border="0"></a>
+
+
