@@ -18,3 +18,7 @@
 ### Далее был прописан IP-адрес для интерфейса Gigabitethernet 0/1.
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/cxY7Q1M/3.jpg" alt="3" border="0"></a>
+
+### Также был прописан IP-адрес для компьютера и выполнен пинг на шлюз:
+
+<a href="https://ibb.co/4ZL6wFT"><img src="https://i.ibb.co/GvDKfd2/4.jpg" alt="4" border="0"></a>
