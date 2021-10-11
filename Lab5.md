@@ -14,3 +14,7 @@
 ### В соответствии с инструкцией, был создан баннер с текстом о запрете несанкционированного доступа.
 
 <a href="https://ibb.co/GFpYd8X"><img src="https://i.ibb.co/N7CDFJX/2.jpg" alt="2" border="0"></a>
+
+### Далее был прописан IP-адрес для интерфейса Gigabitethernet 0/1.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/cxY7Q1M/3.jpg" alt="3" border="0"></a>
