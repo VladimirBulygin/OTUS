@@ -29,10 +29,21 @@
 
 ### Далее были сгенерированы ключи SSH длиной 512 бит.
 
-<a href="https://ibb.co/k15tBq7"><img src="https://i.ibb.co/jRbSf3N/9.jpg" alt="9" border="0"></a>
+<a href="https://ibb.co/gtTD4Zk"><img src="https://i.ibb.co/p4z3hjY/17.png" alt="17" width="1000" border="0"></a>
 
 ### В рамках выполнения пунктов 4 и 5, были активированы протоколы SSH и telnet с помощью команды transport input. Способом входа был выбран Local. В заключение произведено сохранение текущей конфигурации.
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/721ghHJ/10.jpg" alt="10" border="0"></a>
+
+### Аналогичным с маршрутизатором образом был настроен свитч: 
+
+<a href="https://ibb.co/3M9BWkk"><img src="https://i.ibb.co/jWPgGHH/120.png" alt="120" width="1000" border="0"></a>
+
+### При тестировании подключения к свитчу по SSH, подключение завершилось успешно:
+
+<a href="https://ibb.co/SvgqwbB"><img src="https://i.ibb.co/7yD7tPK/20.png" alt="20" width="1000" border="0"></a>
+
+### Часть 4. Настройка SSH с использованием CLI.
+
 
 
