@@ -9,3 +9,7 @@
 
 <a href="https://ibb.co/6JFDYRb"><img src="https://i.ibb.co/k6XqKg0/3.jpg" alt="3" border="0"></a>
 <a href="https://ibb.co/dMgqsrj"><img src="https://i.ibb.co/pwy86xb/4.jpg" alt="4" border="0"></a>
+
+## После настройки коммутаторов были назначены ip - адреса хостам.
+
+## Во второй части лабораторной работы
