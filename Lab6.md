@@ -24,16 +24,19 @@
 
 ## И далее порты коммутатора S1 были включены во VLAN, в соответствии с таблицей внутри лаб. работы.
 
-<a href="https://ibb.co/vk1pgDg"><img src="https://i.ibb.co/4pWz9J9/8-1.jpg" alt="8-1" border="0"></a>
+<a href="https://ibb.co/vk1pgDg"><img src="https://i.ibb.co/4pWz9J9/8-1.jpg" alt="8-1" width="1000" heigth="1000" border="0"></a>
 
 ## Подобным образом был натроен свитч S2.
 
-<a href="https://ibb.co/rpY9qWf"><img src="https://i.ibb.co/JpVZ8hF/8-2.jpg" alt="8-2" border="0"></a>
+<a href="https://ibb.co/rpY9qWf"><img src="https://i.ibb.co/JpVZ8hF/8-2.jpg" alt="8-2" width="1000" heigth="1000" border="0"></a>
 
 ## При настройке Native на другом коммутаторе появилась ошибка:
 
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/gmjzVw1/9.jpg" alt="9" border="0"></a>
 
 ## В заключение был активирован транк-порт на роутере, настроены саб-интерфейсы (основные шлюзы для VLAN). 
+
+## Ответ на контрольный вопрос: при неактивированном интерфесе G0/1 маршрутизация между VLAN не производится.
 
 <a href="https://ibb.co/xLPFwtd"><img src="https://i.ibb.co/vqgXf6R/10.jpg" alt="10" border="0"></a>
 
