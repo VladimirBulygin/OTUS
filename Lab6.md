@@ -14,4 +14,4 @@
 
 ## В начале второй части лабораторной работы была выполнена настройка VLAN аналогичным образом на обоих коммутаторах.
 
-<a href="https://ibb.co/92wdLvk"><img src="https://i.ibb.co/rMbXStR/5.jpg" alt="5" border="0"></a>
+<a href="https://ibb.co/8s0KRj7"><img src="https://i.ibb.co/JtKBbzs/5.jpg" alt="5" width='100' heigth='100'border="0"></a>
