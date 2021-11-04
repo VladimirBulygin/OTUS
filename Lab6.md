@@ -14,4 +14,16 @@
 
 ## В начале второй части лабораторной работы была выполнена настройка VLAN аналогичным образом на обоих коммутаторах.
 
-<a href="https://ibb.co/8s0KRj7"><img src="https://i.ibb.co/JtKBbzs/5.jpg" alt="5" width='100' heigth='100'border="0"></a>
+<a href="https://ibb.co/8s0KRj7"><img src="https://i.ibb.co/JtKBbzs/5.jpg" alt="5" width="1000" heigth="1000" border="0"></a>
+
+## После создания VLAN была выполнена настройка SVI - интерфейса управления аналогично на обоих свитчах.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/bJMLbrt/6.jpg" alt="6" border="0"></a>
+
+## И далее порты коммутатора S1 были включены во VLAN, в соответствии с таблицей внутри лаб. работы.
+
+<a href="https://ibb.co/vk1pgDg"><img src="https://i.ibb.co/4pWz9J9/8-1.jpg" alt="8-1" border="0"></a>
+
+## Подобным образом был натроен свичт S2.
+
+<a href="https://ibb.co/rpY9qWf"><img src="https://i.ibb.co/JpVZ8hF/8-2.jpg" alt="8-2" border="0"></a>
