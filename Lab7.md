@@ -12,3 +12,10 @@
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/Yf3zTFF/3.jpg" alt="3" border="0"></a>
 
+#### Далее после выполнения команды show spanning-tree на всех свитчах, было получено следюущее:
+
+<a href="https://ibb.co/KcgLZR1"><img src="https://i.ibb.co/rKhcPTW/4.jpg" alt="4" border="0"></a>
+
+<a href="https://ibb.co/pKzhs5V"><img src="https://i.ibb.co/LgtNqHj/5.jpg" alt="5" border="0"></a>
+
+<a href="https://ibb.co/Rzycs6d"><img src="https://i.ibb.co/0htr69v/6.jpg" alt="6" border="0"></a>
