@@ -42,4 +42,12 @@
 <a href="https://ibb.co/483tLT8"><img src="https://i.ibb.co/Wkj5Xyk/10.jpg" alt="10" border="0"></a>
 <a href="https://ibb.co/vVqhL5j"><img src="https://i.ibb.co/zQxFPc4/11.jpg" alt="11" border="0"></a>
 <a href="https://ibb.co/QrFQRWJ"><img src="https://i.ibb.co/hDR9jGg/12.jpg" alt="12" border="0"></a>
+#### Топология в результате выглядит так: 
+<a href="https://ibb.co/rt7xk5c"><img src="https://i.ibb.co/cvg6J2C/14.jpg" alt="14" border="0"></a>
+#### Результатом включения портов с наименьшим приоритетом, является перемещение корневых портов свитчей на вновь включенные порты.
+
+#### Ответы на вопросы:
+#### 1) Первым значением протокол STP использует значение стоимости линков.
+#### 2) Следующим значением будет стоимость самого порта.
+#### 3) Последним значением будет приоритет порта.
 
