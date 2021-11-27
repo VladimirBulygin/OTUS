@@ -8,5 +8,7 @@
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/M6H71B3/2.jpg" alt="2" border="0"></a>
 
+#### В шаге 2 лабораторной работы были отключены все порты каждого свитча. Далее были включены только порты FastEthernet 0/2 и 0/4 каждого из устройств. Топология приняла следующий вид:
 
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Yf3zTFF/3.jpg" alt="3" border="0"></a>
 
