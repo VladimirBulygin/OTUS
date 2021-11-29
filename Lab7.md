@@ -14,15 +14,15 @@
 
 #### Далее после выполнения команды show spanning-tree на всех свитчах, было получено следюущее:
 
-<a href="https://ibb.co/KcgLZR1"><img src="https://i.ibb.co/rKhcPTW/4.jpg" alt="4" border="0"></a>
+<a href="https://ibb.co/KcgLZR1"><img src="https://i.ibb.co/rKhcPTW/4.jpg" alt="4" border="0" width="1000"></a>
 
-<a href="https://ibb.co/pKzhs5V"><img src="https://i.ibb.co/LgtNqHj/5.jpg" alt="5" border="0"></a>
+<a href="https://ibb.co/pKzhs5V"><img src="https://i.ibb.co/LgtNqHj/5.jpg" alt="5" border="0" width="1000"></a>
 
-<a href="https://ibb.co/Rzycs6d"><img src="https://i.ibb.co/0htr69v/6.jpg" alt="6" border="0"></a>
+<a href="https://ibb.co/Rzycs6d"><img src="https://i.ibb.co/0htr69v/6.jpg" alt="6" border="0" width="1000"></a>
 
 #### По результатам анализа данных от свитчей, был получен следующий результат:
 
-<a href="https://ibb.co/T87ThFf"><img src="https://i.ibb.co/swNP3Mf/7.jpg" alt="7" border="0"></a>
+<a href="https://ibb.co/T87ThFf"><img src="https://i.ibb.co/swNP3Mf/7.jpg" alt="7" border="0" width="1000"></a>
 
 #### 1) Корневым коммутатором был выбран мост S1, в связи с тем, что у него было наименьшее значение MAC. Приоритет в данном случае у всех свитчей был одинаковым.
 #### 2) Корневыми на коммутаторе являются те порты, которые "смотрят" непосредственно на корневой свитч.
@@ -30,20 +30,20 @@
 #### 4) В настоящее время заблокирован порт F0/4 на коммутаторе S2. Произошло это по причине того,что через порт F0/4 проходит путь с наибольшей стоимостью линков (19+19), в то же время путь от F0/2 до рута равен 19. И путь от свитча S3 до рута также равен 19. Также свичт 2 имеет самый высокий идентификатор.
 
 #### В следующем шаге была изменена стоимость порта F0/2 свитча S2. Получен след. результат:
-<a href="https://ibb.co/djqZRdb"><img src="https://i.ibb.co/0mS5xgB/8.jpg" alt="8" border="0"></a>
+<a href="https://ibb.co/djqZRdb"><img src="https://i.ibb.co/0mS5xgB/8.jpg" alt="8" border="0" width="1000"></a>
 #### А топология приняла след. вид:
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/XbZJPrw/9.jpg" alt="9" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/XbZJPrw/9.jpg" alt="9" border="0" width="1000"></a>
 
 #### В результате изменения стоимости порта F0/2, он перешел в состояние FWD, также в это же состояние перешел и порт F0/4 данного моста. Новым Alternate портом был выбран F0/2 #### коммутатора S3.
 
 #### После возвращение стоимости порта в первоначальное значение, топология приняла прежний вид.
 
 #### В последнем шаге работы были включены порты F0/1 и F0/3 на всех коммутаторах. В результате были получены следующие данные: 
-<a href="https://ibb.co/483tLT8"><img src="https://i.ibb.co/Wkj5Xyk/10.jpg" alt="10" border="0"></a>
-<a href="https://ibb.co/vVqhL5j"><img src="https://i.ibb.co/zQxFPc4/11.jpg" alt="11" border="0"></a>
-<a href="https://ibb.co/QrFQRWJ"><img src="https://i.ibb.co/hDR9jGg/12.jpg" alt="12" border="0"></a>
+<a href="https://ibb.co/483tLT8"><img src="https://i.ibb.co/Wkj5Xyk/10.jpg" alt="10" border="0" width="1000"></a>
+<a href="https://ibb.co/vVqhL5j"><img src="https://i.ibb.co/zQxFPc4/11.jpg" alt="11" border="0" width="1000"></a>
+<a href="https://ibb.co/QrFQRWJ"><img src="https://i.ibb.co/hDR9jGg/12.jpg" alt="12" border="0" width="1000"></a>
 #### Топология в результате выглядит так: 
-<a href="https://ibb.co/rt7xk5c"><img src="https://i.ibb.co/cvg6J2C/14.jpg" alt="14" border="0"></a>
+<a href="https://ibb.co/rt7xk5c"><img src="https://i.ibb.co/cvg6J2C/14.jpg" alt="14" border="0" width="1000"></a>
 #### Результатом включения портов с наименьшим приоритетом, является перемещение корневых портов свитчей на вновь включенные порты.
 
 #### Ответы на вопросы:
