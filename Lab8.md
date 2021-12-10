@@ -14,4 +14,6 @@
 <a href="https://ibb.co/ckyHdRW"><img src="https://i.ibb.co/VJLZ8bF/4.jpg" alt="4" border="0"></a>
 ### При выполнении icmp запроса на порты g0/1 соседнего маршрутизатора, пинг был выполнен успешно:
 <a href="https://ibb.co/1LBsz0V"><img src="https://i.ibb.co/9NBwZpX/5.jpg" alt="5" border="0"></a>
+### При проверке назначения IPV6 адресов на компьютерах PCa и PCb, каждый из хостов получил IPV6 адрес из соответствующей сети:
+<a href="https://ibb.co/K5G8656"><img src="https://i.ibb.co/10n4Z0Z/6.jpg" alt="6" border="0"></a>
 
