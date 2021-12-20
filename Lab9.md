@@ -34,7 +34,17 @@
 
 <a href="https://ibb.co/4f36FPq"><img src="https://i.ibb.co/g7h5rz2/9.jpg" alt="9" border="0"></a>
 
+### На следующем шаге на S2 был настроен DHCP-snooping. В доверенные порты был добавлен порт f0/1, для недоверенного порта f0/18 было создано ограничение 5 пакетов в секунду.
 
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/DpDNHbC/ds.jpg" alt="ds" border="0"></a>
+
+<a href="https://ibb.co/Pg4tBZz"><img src="https://i.ibb.co/yq5VLnB/10.jpg" alt="10" border="0"></a>
+
+### Также была выполнена команда ipconfig /renew на PCB и произведен последущий мониторинг на S2.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/4jYt88m/11.jpg" alt="11" border="0"></a>
+
+<a href="https://ibb.co/W6rySJc"><img src="https://i.ibb.co/QfWNsw6/12.jpg" alt="12" border="0"></a>
 
 
 
