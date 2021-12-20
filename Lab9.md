@@ -20,6 +20,22 @@
 
 <a href="https://ibb.co/4PfwKFq"><img src="https://i.ibb.co/YpW4PNC/2.jpg" alt="2" border="0"></a>
 
+### Следующей настройкой безопасности было перемещение неиспользуемых портов свитчей в VLAN999 и последующее их отключение.
+
+<a href="https://ibb.co/3T9Hrgb"><img src="https://i.ibb.co/QJ3GbyV/333.jpg" alt="333" border="0"></a>
+
+### Далее была произведена настройка Port-Security для портов S1 f0/6 и S2 f0/18
+
+<a href="https://ibb.co/NxfCJyS"><img src="https://i.ibb.co/XX6LKC8/6.jpg" alt="6" border="0"></a>
+
+<a href="https://ibb.co/0c4BysF"><img src="https://i.ibb.co/47vsR1Y/8.jpg" alt="8" border="0"></a>
+
+<a href="https://ibb.co/8B3NX6M"><img src="https://i.ibb.co/wLHBYMy/7.jpg" alt="7" border="0"></a>
+
+<a href="https://ibb.co/4f36FPq"><img src="https://i.ibb.co/g7h5rz2/9.jpg" alt="9" border="0"></a>
+
+
+
 
 
 
