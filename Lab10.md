@@ -24,6 +24,12 @@
 
 <a href="https://ibb.co/xhHXmXy"><img src="https://i.ibb.co/zsJQ8Q1/3.jpg" alt="3" border="0"></a>
 
+### При запуске ping до loopback 1 R2 из R1.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/qBQ4P97/5.jpg" alt="5" border="0"></a>
+
+
+
 
 
 
